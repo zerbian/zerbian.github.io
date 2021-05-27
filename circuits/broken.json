@@ -1,0 +1,26 @@
+{
+    "devices": {
+        "in": {"type": "Input", "net": "A", "bits": 3},
+        "out": {"type": "Output", "net": "X", "bits": 4},
+        "rom": {
+            "type": "Memory",
+            "bits": 4,
+            "abits": 3,
+            "rdports": [
+                {}
+            ],
+            "wrports": []
+        }
+    },
+    "connectors": [
+        {
+            "from": {"id": "in", "port": "out"},
+            "to": {"id": "rom", "port": "rd0addr"}
+        },
+        {
+            "from": {"id": "rom", "port": "rd0data"},
+            "to": {"id": "out", "port": "in"}
+        }
+    ],
+    "subcircuits": {}
+}
