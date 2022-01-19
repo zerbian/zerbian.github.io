@@ -1,0 +1,91 @@
+:root {
+    --heigh-factor: 3px;
+    --bg-color1: #eee;
+    --bg-color2: #ccc;
+    --rest-color: #faa;
+    --now-color: #0d0;
+    --color-last-time: transparent;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
+h2 {
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+
+main {
+    width:800px;
+    margin: 0 auto;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+    width: 100%;
+}
+
+.gc .so {
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+}
+
+article {
+    padding-left: 2px;
+    height: calc(var(--rel-height) * var(--heigh-factor));
+    width: 13em;
+    position: relative;
+}
+
+article:nth-child(odd) {
+    background-color: var(--bg-color1);
+}
+
+article:nth-child(even) {
+    background-color: var(--bg-color2)
+}
+
+article:last-child {
+    --color-last-time: black;
+}
+
+.rest {
+    background-color: var(--rest-color) !important;
+}
+
+.now {
+    background-color: var(--now-color) !important;
+}
+
+
+.blank {
+    background-color: initial !important;
+}
+
+
+.bottom-right {
+    color: var(--color-last-time);
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+}
+
+.time {
+    font-size: smaller;
+}
+
+p {
+    margin: 0;
+    font-weight:600;
+}
