@@ -22,7 +22,6 @@ h2 {
 }
 
 main {
-    width: fit-content;
     margin: 0 auto;
 }
 
@@ -44,7 +43,7 @@ section {
 article {
     padding-left: 2px;
     height: calc(var(--rel-height) * var(--heigh-factor));
-    width: 13em;
+    width: 10em;
     position: relative;
 }
 
