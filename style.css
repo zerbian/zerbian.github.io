@@ -25,6 +25,7 @@ h2 {
 main {
     width: auto;
     margin: 0 auto;
+    overflow-x: hidden;
 }
 
 section {
@@ -33,7 +34,7 @@ section {
     flex-wrap: wrap;
     gap: 1em;
     justify-content: center;
-    width: 100%;
+    width: auto;
 }
 
 .gc .so {
@@ -45,7 +46,7 @@ section {
 article {
     padding-left: 2px;
     height: calc(var(--rel-height) * var(--heigh-factor));
-    width: 11em;
+    width: 10em;
     position: relative;
 }
 
@@ -88,5 +89,4 @@ article:last-child {
 
 p {
     margin: 0;
-    font-weight:600;
 }
