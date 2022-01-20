@@ -1,9 +1,8 @@
 :root {
     --heigh-factor: 3px;
-    --bg-color1: #eee;
-    --bg-color2: #ccc;
-    --rest-color: #faa;
-    --now-color: #0d0;
+    --rest-color: #ddf;
+    --now-color: #afa;
+    --mark-color: #fdd;
     --color-last-time: none;
 }
 
@@ -32,34 +31,15 @@ section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: var(--heigh-factor);
+    gap: 0;
     justify-content: center;
     width: auto;
 }
 
-.gc .so {
+.ens {
     display: flex;
     flex-direction: column;
     flex-basis: auto;
-}
-
-article {
-    padding-left: 2px;
-    height: calc(var(--rel-height) * var(--heigh-factor));
-    width: 10em;
-    position: relative;
-}
-
-article:nth-child(odd) {
-    background-color: var(--bg-color1);
-}
-
-article:nth-child(even) {
-    background-color: var(--bg-color2)
-}
-
-article:last-child {
-    --color-last-time: block;
 }
 
 .rest {
@@ -73,14 +53,43 @@ article:last-child {
 
 .blank {
     background-color: initial !important;
+    border-top: none !important
 }
 
+.marked {
+    background-color: var(--mark-color) !important;
+}
+
+article {
+    padding-left: 2px;
+    height: calc(var(--rel-height) * var(--heigh-factor));
+    width: 10em;
+    position: relative;
+}
+
+.gc {
+    border-right: 1px solid black;
+}
+
+article {
+    border-bottom: 1px solid black;
+}
+
+article:first-of-type {
+    border-top: 1px solid black;
+}
+
+
+
+article:last-child {
+    --color-last-time: block;
+}
 
 .bottom-right {
     display: var(--color-last-time);
     position: absolute;
     bottom: 2px;
-    right: 2px;
+    left: 2p;
 }
 
 .time {

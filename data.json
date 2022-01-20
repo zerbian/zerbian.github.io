@@ -311,6 +311,144 @@
 			"end":"2022-01-22T18:00:00",
 			"note":"Kyrie",
 			"type":"SO"
+		},
+		{
+			"start":"2022-01-23T10:00:00",
+			"end":"2022-01-23T10:20:00",
+			"note":"Einsingen",
+			"type":"GC"
+		},
+		{
+			"start":"2022-01-23T10:20:00",
+			"end":"2022-01-23T11:30:00",
+			"note":"Korrekturen von Samstag",
+			"type":"GC"
+		},
+		{
+			"start":"2022-01-23T11:30:00",
+			"end":"2022-01-23T11:45:00",
+			"note":"Pause",
+			"type":"GC"
+		},
+		{
+			"start":"2022-01-23T11:45:00",
+			"end":"2022-01-23T13:00:00",
+			"note":"Korrekturen und Chorwünsche",
+			"type":"GC"
+		},
+		{
+			"start":"2022-01-23T13:00:00",
+			"end":"2022-01-23T14:00:00",
+			"note":"Mittagspause",
+			"type":"GC"
+		},
+		{
+			"start":"2022-01-23T14:00:00",
+			"end":"2022-01-23T14:30:00",
+			"note":"Kyrie Tutti Audimax",
+			"type":"GC"
+		},
+		{
+			"start":"2022-01-23T14:30:00",
+			"end":"2022-01-23T15:15:00",
+			"note":"Gloria Tutti Audimax",
+			"type":"GC"
+		},
+		{
+			"start":"2022-01-23T15:15:00",
+			"end":"2022-01-23T15:30:00",
+			"note":"Sanctus Tutti Audimax",
+			"type":"GC"
+		},
+		{
+			"start":"2022-01-23T15:30:00",
+			"end":"2022-01-23T15:45:00",
+			"note":"Pause",
+			"type":"GC"
+		},
+		{
+			"start":"2022-01-23T15:45:00",
+			"end":"2022-01-23T16:20:00",
+			"note":"Credo",
+			"type":"GC"
+		},
+		{
+			"start":"2022-01-23T16:20:00",
+			"end":"2022-01-23T16:40:00",
+			"note":"Agnus Dei",
+			"type":"GC"
+		},
+		{
+			"start":"2022-01-23T16:40:00",
+			"end":"2022-01-23T17:00:00",
+			"note":"Benedictus",
+			"type":"GC"
+		},
+		{
+			"start":"2022-01-23T10:00:00",
+			"end":"2022-01-23T11:30:00",
+			"note":"Tschaikovsky – alle Sätze – 1, 4, 2, 3 – mit Daniel",
+			"type":"SO"
+		},
+		{
+			"start":"2022-01-23T11:30:00",
+			"end":"2022-01-23T11:45:00",
+			"note":"Pause",
+			"type":"SO"
+		},
+		{
+			"start":"2022-01-23T11:45:00",
+			"end":"2022-01-23T13:00:00",
+			"note":"Symth alle Sätze",
+			"type":"SO"
+		},
+		{
+			"start":"2022-01-23T13:00:00",
+			"end":"2022-01-23T14:00:00",
+			"note":"Mittagspause",
+			"type":"SO"
+		},
+		{
+			"start":"2022-01-23T14:00:00",
+			"end":"2022-01-23T14:30:00",
+			"note":"Kyrie mit Simon",
+			"type":"SO"
+		},
+		{
+			"start":"2022-01-23T14:30:00",
+			"end":"2022-01-23T15:15:00",
+			"note":"Gloria",
+			"type":"SO"
+		},
+		{
+			"start":"2022-01-23T15:15:00",
+			"end":"2022-01-23T15:30:00",
+			"note":"Sanctus",
+			"type":"SO"
+		},
+		{
+			"start":"2022-01-23T15:30:00",
+			"end":"2022-01-23T15:45:00",
+			"note":"Pause",
+			"type":"SO"
+		},
+		{
+			"start":"2022-01-23T15:45:00",
+			"end":"2022-01-23T16:20:00",
+			"note":"Credo",
+			"type":"SO"
+		},
+		{
+			"start":"2022-01-23T16:20:00",
+			"end":"2022-01-23T16:40:00",
+			"note":"Agnus Dei",
+			"type":"SO"
+		},
+		{
+			"start":"2022-01-23T16:40:00",
+			"end":"2022-01-23T17:00:00",
+			"note":"Benedictus",
+			"type":"SO"
 		}
 	]
 }

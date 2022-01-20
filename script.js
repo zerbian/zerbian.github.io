@@ -7,6 +7,7 @@ fetch("data.json")
 function main(data) {
     data.events.sort((a,b) => (a.start > b.start) ? 1 : -1);
     data.events.forEach(createSlot);
+    scrollToDay();
 }
 
 function createSlot(event) {
@@ -17,14 +18,15 @@ function createSlot(event) {
     // find right class to insert the element
     let day = days[start.getDay()];
     let ens = event.type.toLowerCase();
-    const anchor = document.querySelector(`.${day}>.${ens}`);
+    const anchor = document.querySelector(`#${day}>.${ens}`);
     
     let el = document.createElement("article");
     el.style = "--rel-height:" + duration ;
+    el.onclick = function() {this.classList.toggle("marked")};
 
     let startText = document.createElement("span");
     startText.classList.add("time");
-    startText.textContent = start.toLocaleTimeString().slice(0,5);
+    startText.textContent = start.toLocaleTimeString('en-GB').slice(0,5);
 
     let endText = document.createElement("span");
     endText.classList.add("bottom-right","time");
@@ -52,10 +54,16 @@ function createSlot(event) {
     anchor.appendChild(el);
 }
 
+function scrollToDay() {
+    let date = new Date(Date.now());
+    let today = days[date.getDay()];
+    let elem = document.getElementById(today);
+    if (elem) elem.scrollIntoView();
+}
 /*
 (function() {
     let nows = document.getElementsByClassName("now");
     nows.forEach(elem => elem.classList.remove("now"));
 
-    setTimeout(arguments.callee, 1000*60*15);
+    setTimeout(arguments.callee, 1000*60*5);
 })(); */
