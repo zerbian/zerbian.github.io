@@ -100,3 +100,13 @@ article:last-child {
 p {
     margin: 0;
 }
+
+footer {
+    margin-top: 10em;
+    text-align: center;
+    filter: blur(1px);
+}
+
+footer > a  {
+    color: inherit;
+}
