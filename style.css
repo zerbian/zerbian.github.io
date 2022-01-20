@@ -32,7 +32,7 @@ section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 1em;
+    gap: var(--heigh-factor);
     justify-content: center;
     width: auto;
 }
