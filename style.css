@@ -4,7 +4,7 @@
     --bg-color2: #ccc;
     --rest-color: #faa;
     --now-color: #0d0;
-    --color-last-time: transparent;
+    --color-last-time: none;
 }
 
 * {
@@ -59,7 +59,7 @@ article:nth-child(even) {
 }
 
 article:last-child {
-    --color-last-time: black;
+    --color-last-time: block;
 }
 
 .rest {
@@ -77,7 +77,7 @@ article:last-child {
 
 
 .bottom-right {
-    color: var(--color-last-time);
+    display: var(--color-last-time);
     position: absolute;
     bottom: 2px;
     right: 2px;
