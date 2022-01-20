@@ -51,3 +51,11 @@ function createSlot(event) {
 
     anchor.appendChild(el);
 }
+
+
+(function() {
+    let nows = document.getElementsByClassName("now");
+    nows.forEach(elem => elem.classList.remove("now"));
+
+    setTimeout(arguments.callee, 1000*60*15);
+})();
