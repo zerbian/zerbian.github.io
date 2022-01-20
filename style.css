@@ -13,15 +13,17 @@
 
 body {
     font-family: 'Outfit', sans-serif;
+    overflow-x: hidden;
 }
 
 h2 {
     font-weight: bold;
-    width: 100%;
+    width: auto;
     text-align: center;
 }
 
 main {
+    width: auto;
     margin: 0 auto;
 }
 
@@ -43,7 +45,7 @@ section {
 article {
     padding-left: 2px;
     height: calc(var(--rel-height) * var(--heigh-factor));
-    width: 10em;
+    width: 11em;
     position: relative;
 }
 
