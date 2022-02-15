@@ -11,15 +11,18 @@
 }
 
 body {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
     overflow-x: hidden;
     background-color: #ddd;
 }
 h1,
 h2 {
-    font-weight: bold;
+    font-weight: 600;
     width: auto;
-    text-align: center;
+}
+
+p {
+    font-weight: 300;
 }
 
 main {
